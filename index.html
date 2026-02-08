@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HK GALLERY</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>⚡ HK GALLERY</h1>
+
+<!-- TOP BAR -->
+<div class="topbar">
+<input type="file" id="imgInput" accept="image/*">
+<button onclick="addImage()">Upload</button>
+
+<input type="text" id="search" placeholder="Search image..." onkeyup="searchImage()">
+</div>
+<div id="dropArea" class="drop-area">
+  🔥 Drag & Drop Image Here
+</div>
+
+<!-- FILTER -->
+<div class="buttons">
+<button onclick="filterImages('all')">All</button>
+<button onclick="filterImages('nature')">Nature</button>
+<button onclick="filterImages('city')">City</button>
+</div>
+
+<!-- GALLERY -->
+<div class="gallery" id="gallery"></div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+<span class="close" onclick="closeBox()">×</span>
+<img id="lightImg">
+
+<div class="controls">
+<button onclick="change(-1)">⬅</button>
+<button onclick="change(1)">➡</button>
+<button onclick="downloadImg()">⬇</button>
+<button onclick="deleteImg()">🗑</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
