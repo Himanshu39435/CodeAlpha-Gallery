@@ -44,8 +44,8 @@ A powerful and modern image gallery built using **HTML, CSS, JavaScript** with d
 
 ## 📸 Screenshots
 
-(<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3ce4831a-8078-474e-a4f9-7d58feb52538" />
-)
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3ce4831a-8078-474e-a4f9-7d58feb52538" />
+
 
 ---
 
