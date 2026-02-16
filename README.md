@@ -10,10 +10,6 @@ A powerful and modern image gallery built using **HTML, CSS, JavaScript** with d
 
 👉 [https://himanshu39435.github.io/CodeAlpha-Gallery/](https://himanshu39435.github.io/CodeAlpha-Gallery/)
 
-## 💻 GitHub Repo
-
-👉 [https://github.com/Himanshu39435/CodeAlpha-Gallery](https://github.com/Himanshu39435/CodeAlpha-Gallery)
-
 ---
 
 ## 🔥 Features
